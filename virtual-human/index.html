@@ -1,0 +1,37 @@
+<html>
+    <header>
+        <script type="text/javascript" src="./jquery.js"></script>
+        <script type="text/javascript" src="./script.js" defer></script>
+        <link rel="stylesheet" href="./style.css">
+    </header>
+
+    <body>
+
+        <div class="wrapper">
+
+            <video autoplay id="myVideo" autoplay poster="poster.png" onended="switchIdle()">
+                <source src="videos/idle.mp4"
+                    type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+            <video autoplay id="idleVideo" autoplay poster="poster.png" muted loop>
+                <source src="/videos/idle.mp4"
+                    type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+</div>
+
+    </body>
+
+    <!-- DIALOGFLOW MESSENGER - REPLACE WITH YOURS -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="MediPalAarav"
+  agent-id="8aee1831-8f48-4b18-9628-846e0105c7b8"
+  language-code="en"
+></df-messenger>
+    <!-- END OF DIALOGFLOW MESSENGER -->
+
+</html>
