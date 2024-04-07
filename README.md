@@ -68,7 +68,7 @@ Replace `your_discord_bot_token` with the token you obtained in step 3.
 - Customize the list of stressed and suicidal words in the bot script (`bot_script.py`) to better suit your community's needs.
 - Modify the content of the messages sent by MediPal to tailor them to your preferences or add additional resources.
 
-# Setup and Running Guide for HTML Page with Dialogflow Messenger
+## Setup and Running Guide for HTML Page with Dialogflow Messenger
 
 This guide explains how to set up and run an HTML page embedded with Dialogflow Messenger, which provides a chat interface for interacting with a Dialogflow agent.
 
